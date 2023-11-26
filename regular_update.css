@@ -1,0 +1,39 @@
+:root{
+    --book1_color:#fbe1f7c2;  
+    --book2_color: #f0f8ffe3;
+    --book3_color:#c7deff96; 
+    --book4_color:	#f5cb95bb; 
+    /* --book3_color:red;  */
+}
+
+/* Book1: Rich Dad Poor Dad */
+#bookName1,#authorName1{
+    display: none;
+}
+#book1, #body1{
+    background-color: var(--book1_color);
+}
+
+/* Book2: The Psychology of Money */
+#bookName2,#authorName2{
+    display: none;
+}
+#book2, #body2{
+    background-color: var(--book2_color);
+}
+
+/* Book3: Breaking the Habit of Being Yourself */
+#bookName3,#authorName3{
+    display: none;
+}
+#book3, #body3{
+    background-color: var(--book3_color);
+}
+
+/* book4: The Monk Who Sold His Ferrari */
+#bookName4,#authorName4{
+    display: none;
+}
+#book4,#body4{
+    background-color: var(--book4_color);
+}

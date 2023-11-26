@@ -1,0 +1,246 @@
+/* body_a,body_b,etc are classes in review webpage */
+:root{
+    --book_a_color:#fcdfdfe0; 
+    --book_b_color:#fff2e4db; 
+    --book_c_color:#e7e7e7d9; 
+    --book_d_color:#ffe7bbe8; 
+    --book_e_color:#f3e28cd6; 
+    --book_f_color:#ffe5cee6; 
+    --book_g_color:#756f767a; 
+    --book_h_color:#ffaa2c57; 
+    --book_i_color:#ff3e0040; 
+    --book_j_color:#f0f8ffd1; 
+    --book_k_color:#bee1ffd1; 
+    --book_l_color:#f3d4cfb3; 
+    --book_m_color:#a8db2e8f; 
+    --book_n_color:#aea38f6e; 
+    --book_o_color:#b3929454; 
+    --book_p_color:#f3d88ca6; 
+    --book_q_color:#ffd36199; 
+    --book_r_color:#f9d7b894; 
+    --book_s_color:#ffbab9a6; 
+    /* --book_t_color:#c7deff96;  */
+    --book_u_color:#fd737bb5; 
+}
+
+/* Book_a: Shoe Dog */
+#bookName_a,#authorName_a{
+    display: none;
+}
+#book_a{
+    background-color: var(--book_a_color);
+}
+#body_a{
+    background-color: var(--book_a_color);
+}
+
+/* Book_b: Atomic Habits */
+#bookName_b,#authorName_b{
+    display: none;
+}
+#book_b{
+    background-color: var(--book_b_color);
+}
+#body_b{
+    background-color: var(--book_b_color);
+}
+
+/* Book_c: Steve Jobs */
+#bookName_c,#authorName_c{
+    display: none;
+}
+#book_c{
+    background-color: var(--book_c_color);
+}
+#body_c{
+    background-color: var(--book_c_color);
+}
+
+/* Book_d: Zero to One */
+#bookName_d,#authorName_d{
+    display: none;
+}
+#book_d{
+    background-color: var(--book_d_color);
+}
+#body_d{
+    background-color: var(--book_d_color);
+}
+
+/* Book_e: The Unfair Advantage */
+#bookName_e,#authorName_e{
+    display: none;
+}
+#book_e{
+    background-color: var(--book_e_color);
+}
+#body_e{
+    background-color: var(--book_e_color);
+}
+
+/* Book_f: The Everything Store */
+#bookName_f,#authorName_f{
+    display: none;
+}
+#book_f{
+    background-color: var(--book_f_color);
+}
+#body_f{
+    background-color: var(--book_f_color);
+}
+
+/* Book_g: Elon Musk */
+#bookName_g,#authorName_g{
+    display: none;
+}
+#book_g{
+    background-color: var(--book_g_color);
+}
+#body_g{
+    background-color: var(--book_g_color);
+}
+
+/* Book_h: The Wolf of Wall Street */
+#bookName_h,#authorName_h{
+    display: none;
+}
+#book_h{
+    background-color: var(--book_h_color);
+}
+#body_{
+    background-color: var(--book_h_color);
+}
+
+/* Book_i: The Subtle Art of Not Giving a F */
+#bookName_i,#authorName_i{
+    display: none;
+}
+#book_i{
+    background-color: var(--book_i_color);
+}
+#body_i{
+    background-color: var(--book_i_color);
+}
+
+/* Book_j: Ikigai */
+#bookName_j,#authorName_j{
+    display: none;
+}
+#book_j{
+    background-color: var(--book_j_color);
+}
+#body_j{
+    background-color: var(--book_j_color);
+}
+
+/* Book_k: How to Not Die Alone */
+#bookName_k,#authorName_k{
+    display: none;
+}
+#book_k{
+    background-color: var(--book_k_color);
+}
+#body_k{
+    background-color: var(--book_k_color);
+}
+
+/* Book_l: friends book */
+#bookName_l,#authorName_l{
+    display: none;
+}
+#book_l{
+    background-color: var(--book_l_color);
+}
+#body_l{
+    background-color: var(--book_l_color);
+}
+
+/* Book_m: Think and grow rich */
+#bookName_m,#authorName_m{
+    display: none;
+}
+#book_m{
+    background-color: var(--book_m_color);
+}
+#body_m{
+    background-color: var(--book_m_color);
+}
+
+/* Book_n: the millionaire fastlane */
+#bookName_n,#authorName_n{
+    display: none;
+}
+#book_n{
+    background-color: var(--book_n_color);
+}
+#body_n{
+    background-color: var(--book_n_color);
+}
+
+/* book_o: alibaba */
+#bookName_o,#authorName_o{
+    display: none;
+}
+#book_o{
+    background-color: var(--book_o_color);
+}
+#body_o{
+    background-color: var(--book_o_color);
+}
+
+/* book_p: tools of titans */
+#bookName_p,#authorName_p{
+    display: none;
+}
+#book_p{
+    background-color: var(--book_p_color);
+}
+#body_p{
+    background-color: var(--book_p_color);
+}
+
+/* book_q: the alchemist */
+#bookName_q,#authorName_q{
+    display: none;
+}
+#book_q{
+    background-color: var(--book_q_color);
+}
+#body_q{
+    background-color: var(--book_q_color);
+}
+
+/* book_r: 21 lessons for the 21st century */
+#bookName_r,#authorName_r{
+    display: none;
+}
+#book_r{
+    background-color: var(--book_r_color);
+}
+#body_r{
+    background-color: var(--book_r_color);
+}
+
+/* book_s: the courage to be disliked */
+#bookName_s,#authorName_s{
+    display: none;
+}
+#book_s{
+    background-color: var(--book_s_color);
+}
+#body_s{
+    background-color: var(--book_s_color);
+}
+
+
+
+/* book_u: the intelligent investor */
+#bookName_u,#authorName_u{
+    display: none;
+}
+#book_u{
+    background-color: var(--book_u_color);
+}
+#body_u{
+    background-color: var(--book_u_color);
+}

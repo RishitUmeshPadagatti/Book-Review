@@ -1,0 +1,18 @@
+.box{
+    float: right;
+}
+.content .review{
+    clear: left;
+    padding: 35px;
+
+    font-size: large;
+    line-height: 35px;
+    text-align: justify;
+}
+@media only screen and (max-width: 800px){
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

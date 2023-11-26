@@ -1,0 +1,92 @@
+<!-- Book2: The Psychology of Money -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>The Psychology of Money</title>
+    <link rel="icon" type="image/x-icon" href="assets\book_light.png">
+
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="regular_update.css">
+    <link rel="stylesheet" href="book_review.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="navbar1">
+            <a href="index.html" class="center-vertical-horizontal"><img src="assets\book.png" alt="logo"></a>
+        </div>
+
+        <div class="navbar2 center-vertical-horizontal">
+            <ul>
+                <a href="top_books.html">
+                    <li>Top Books</li>
+                </a>
+                <a href="reading_list.html"><li>Reading List</li></a>
+            </ul>
+        </div>
+
+        <div class="navbar3">
+            <button id="btn"><a class="center-vertical-horizontal" id="user"><img src="assets\temp2.png" alt="user"></a></button>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="content" id="body2">
+        <div class="box center-vertical-horizontal" id="book2">
+            <a class="box-child">
+                <img src="assets\books\2. the psychology of money.jpg" alt="the psychology of money">
+                <div id="bookName2"><b>The Psychology of Money</b></div>
+                <div id="authorName2">Morgan Housel</div>
+            </a>
+        </div>
+        <div class="review">Let me tell you the story of how I got this book in the first place. I had been to the Orion mall with Pavan and had ₹500 backup cash. The book cost ₹350, and I knew immediately that it was overpriced compared to online retail. I could get it for half the price. But I thought I'd would spend it out of my own money so I'd would be motivated to finish the book. And ₹400 is a small amount compared to the information it contains. I'll tell you this after reading the whole book: after spending soo much money on my education for soo many years, it's still less compared to this book. It is the most valuable purchase from the little pocket money I get. I used to spend it mostly on friends or snacks.<br><br>
+
+        Unlike Rich Dad Poor Dad, this book covers a "broad spectrum", you might say. Rich Dad Poor Dad was specific and focused more on real estate, but this book focuses more on the stock market, but it also tells us about the whole macroscopic economy and the microscopic psychological value of money to an individual.<br><br>
+            
+        I learned many lessons from this book, some of which are: It's all about perspective and no one is crazy, room for error, compounding (that's the most interesting topic), true freedom is to do anything you want at any time without limitations, wealth is what you do not see, optimism and pessimism. These are some things that are going through my mind right now.<br><br>
+               
+        In case you have not noticed, unlike last time, I am going to make this review a little more specific, just a little, and also give it a personal touch.<br><br>
+            
+        I also want to share with you 2 sentences that stunned me (both from the same chapter4): 1) $81.5 billion of Warren Buffett's $84.5 billion net worth came after his 65th birthday, 2) James Simons with an annual return of 66%, while Buffett with an annual return of 22%, yet Buffet is wealthier, but if Simons had managed for 70 years like Buffett, he would have been worth - 63 quintillion 780 billion 48 million 160 dollars. I did not write the numbers in a normal mathematical form but in readable English because I think the number is astronomical. I have heard the expression "Power of Compounding" from Finance YouTubers and this book shows it clearly.<br><br>
+            
+        It's nice to see that there is a separate chapter called "All Together Now". I thought it would summarize everything, but each chapter has too much information to summarize. I used my highlighter extensively. There was a day when I finished reading 7 chapters of the book, it was that interesting.<br><br>
+            
+        There was also a chapter called "Confessions" which is about the author's finances, and I think he plays a very safe game. He also has cash, which is an absolute no-no-brainer for the financial world, but he justifies it by the freedom he has. His finances were pretty simple.<br><br>
+            
+        There was also a postscript, the purpose of which I do not know, but it explains the consumer market in the US, the aftermath of World War II and how that affected the economy That was a really interesting story. What I learned from this chapter is that money controls everything!<br><br> 
+            
+        This book definitely made me want to read more books. Unfortunately, I can not stick to the reading list I made for myself, I will only read the books I have in the house.<br><br></div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="regular_update.js"></script> -->
+    <script>
+        function qwerty(bookname, authorname) {
+            if (bookname.style.display == "block") {
+                bookname.style.display = "none"
+                authorname.style.display = "none"
+            }
+            else {
+                bookname.style.display = "block"
+                authorname.style.display = "block"
+            }
+        }
+
+        document.getElementById("book2").addEventListener('mouseover', function run() {
+            qwerty(document.getElementById("bookName2"), document.getElementById("authorName2"))
+        })
+        document.getElementById("book2").addEventListener('mouseout', function run() {
+            qwerty(document.getElementById("bookName2"), document.getElementById("authorName2"))
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+<!-- Book1: Rich Dad Poor Dad -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Rich Dad Poor Dad</title>
+    <link rel="icon" type="image/x-icon" href="assets\book_light.png">
+
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="regular_update.css">
+    <link rel="stylesheet" href="book_review.css">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav>
+        <div class="navbar1">
+            <a href="index.html" class="center-vertical-horizontal"><img src="assets\book.png" alt="logo"></a>
+        </div>
+
+        <div class="navbar2 center-vertical-horizontal">
+            <ul>
+                <a href="top_books.html">
+                    <li>Top Books</li>
+                </a>
+                <a href="reading_list.html">
+                    <li>Reading List</li>
+                </a>
+            </ul>
+        </div>
+
+        <div class="navbar3">
+            <button id="btn"><a class="center-vertical-horizontal" id="user"><img src="assets\temp2.png" alt="user"></a></button>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="content" id="body1">
+        <div class="box center-vertical-horizontal" id="book1">
+            <a class="box-child">
+                <img src="assets\books\1. rich_dad_poor_dad.jpg" alt="rich_dad_poor_dad">
+                <div id="bookName1"><b>Rich Dad Poor Dad</b></div>
+                <div id="authorName1">Robert Kiyosaki <br>Sharon Lechter</div>
+            </a>
+        </div>
+        <div class="review">Consider this the first book I have read in my life, because I cannot remember the books I
+            have read before. I read this book mainly because I gave a lecture on why this book (without having read it)
+            is the best book,so let me read it at least once. I think the author hates schools and colleges because he
+            speaks out against them throughout the book. To me, that's perfectly fine and I agree with him as well. He
+            also mentions that he is not a "best-writing- author" but a "best-selling author". When I read that, I got
+            goosebumps.<br><br>
+
+            I think the book I read was the 2000 edition, and my highlighting marred the book a bit. There are many
+            important things in this book and I wanted to photograph each paragraph (unfortunately, I do not have a
+            Kindle to highlight them and easily access them later).<br><br>
+
+            The book is about his experiences as a child when he had two "fathers": a genetic father who is poor but
+            believes in education, and another father (his friend's father) who is rich and opposes the others' normal
+            way of life.<br><br>
+
+
+            It clearly distinguishes between assets and liabilities. There were a few diagrams showing cash flow and
+            other things. He also focused on learning new things. He had once taken a course for $350 and made
+            $2,000,000 using this method. He also suggested that we should know a little bit of everything. He also
+            mentions how rich people avoid paying taxes and that it is almost impossible to tax an intelligent rich
+            person. At the end of the book, he also mentions how to cover education costs of about $400,000 with only
+            $7,000. Really interesting stuff!<br><br>
+
+            This book is definitely recommended for beginners. It teaches us the basics of finance and also life. I
+            would definitely read it again and give a more detailed review. I have a huge list of books I still want to
+            read and this book is definitely the start.</div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- <script src="regular_update.js"></script> -->
+    <script>
+        function qwerty(bookname, authorname) {
+            if (bookname.style.display == "block") {
+                bookname.style.display = "none"
+                authorname.style.display = "none"
+            }
+            else {
+                bookname.style.display = "block"
+                authorname.style.display = "block"
+            }
+        }
+
+        document.getElementById("book1").addEventListener('mouseover', function run() {
+            qwerty(document.getElementById("bookName1"), document.getElementById("authorName1"))
+        })
+        document.getElementById("book1").addEventListener('mouseout', function run() {
+            qwerty(document.getElementById("bookName1"), document.getElementById("authorName1"))
+        })
+    </script>
+</body>
+
+</html>
